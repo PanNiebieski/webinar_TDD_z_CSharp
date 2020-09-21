@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+color:white;
+}
+
+.full .progress {
+    /* border-color: transparent transparent #606aff; */
+border-color: transparent transparent #FF6525;
+    
+}
+
+.titlec1 {
+    color:#ff8060;
+}
+
+.titlec2 {
+    color:#6dff60;
+}
+
+
+.titlec3 {
+    color:#da60ff;
+}
+
+.titlec4 {
+    color:#60ffea;
+}
+
+
+
+.slide {
+
+}
+
+.slide.happy {
+    background-color:#2096BE ;
+    font-weight: normal !important;
+    color: white;
+}
+
+.slide.green {
+    background-color:#A5E88D ;
+    font-weight: normal !important;
+    color: black;
+}
+
+.slide.purple {
+    background-color:#C792EA ;
+    font-weight: normal !important;
+    color: white;
+}
+
+.slide.red {
+    background-color:#F07178 ;
+    font-weight: normal !important;
+    color: white;
+}
+
+.slide.orange {
+    background-color:#FF6525 ;
+    font-weight: normal !important;
+    color: white;
+}
+
+
+
+.slide h2.shout {
+    color: white;
+
+}
+
+code[class*="language-"], pre[class*="language-"] {
+    color: white;
+
+}
+
+/* Hide top badge on each slide */
+.slide:after {
+    display: none;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.slide h2 {
+    color: #FF6525;
+    font-weight: normal;
+    background-color: azure;
+    padding: 20px;
+    border:5px solid #FF6525;
+
+}
+
+.slide h2.shout {
+    color: white;
+    padding: 0px;
+    background-color: transparent;
+}
+
+
+.slide li, slide p {
+    background-color:#2096BE ;
+    padding: 15px;
+    padding-left: 50px;
+    margin: 15px;
+    color: white;
+}
+
+.slide h2 small {
+    color: gray;
+    font-size: smaller;
+}
+
+.slide h2 em {
+    color: #f0db4f;
+    font-style: normal;
+}
+
+.colors {
+    line-height: 150% !important;
+    font-size: 70px !important;
+}
+
+.sss {
+    border-color: rgb(139, 28, 28);
+    border-style: solid;
+    border-width: 20px 20px 20px 20px;
+}
+
+.green {
+    background-color: rgb(39, 175, 39);
+    color:white;
+    padding: 5px;
+}
+
+.red {
+    background-color: red;
+    color:white;
+    padding: 5px;
+}
+
+
+.yellow {
+    background-color:  #FF6525;
+    color:white;
+    padding: 5px;
+}
+
+.pruple {
+    background-color:purple;
+    color:white;
+    padding: 5px;
+}
+.blue {
+    background-color:#2096BE ;
+    color:white;
+    padding: 5px;
+}
+
+.blue2 {
+    background-color:rgb(0, 153, 255);
+    color:white;
+    padding: 5px;
+}
+
+.blue3 {
+    background-color:rgb(0, 225, 255);
+    color:white;
+    padding: 5px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.slide kbd,
+.slide samp,
+.slide pre mark {
+    background-color: #f0db4f;
+}
+
+.slide b,
+.slide strong {
+    color:  #606aff;
+}
+
+.slide a {
+    color: #2380e6;
+}
+
+.slide pre mark.important {
+    background-color: #f7302f;
+}
+
+.slide.compact {
+    padding: 50px;
+}
